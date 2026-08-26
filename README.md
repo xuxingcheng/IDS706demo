@@ -1,3 +1,20 @@
 [![Python tests](https://github.com/xuxingcheng/IDS706demo/actions/workflows/test.yml/badge.svg)](https://github.com/xuxingcheng/IDS706demo/actions/workflows/test.yml)
 
-# IDS706demo
+
+# IDS706demo Python Project
+
+This project asks for a name and prints a welcome message for the Data Engineering course.
+
+## Setup
+python -m venv .venv
+source .venv/bin/activate      # Mac / Linux
+.venv\Scripts\activate          # Windows
+pip install -r requirements.txt
+
+## Run tests
+python -m pytest
+
+## Example
+Enter your name when prompted:
+
+Ammy, welcome to the Data Engineering course.
